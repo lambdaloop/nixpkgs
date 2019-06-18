@@ -14347,6 +14347,8 @@ in
 
   morty = callPackage ../servers/web-apps/morty { };
 
+  mullvad = callPackage ../applications/networking/mullvad { };
+
   myserver = callPackage ../servers/http/myserver { };
 
   nas = callPackage ../servers/nas { };
